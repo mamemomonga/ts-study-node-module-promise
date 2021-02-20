@@ -1,0 +1,18 @@
+{
+  "name": "tspack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "run": "tsc && node dist/app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "ts-loader": "^8.0.17",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5",
+    "typesync": "^0.8.0",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
