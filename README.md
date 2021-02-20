@@ -12,3 +12,10 @@
 
     $ yarn run run
 
+# 空の状態から始める場合
+
+	$ mkdir tspack && cd tspack
+	$ yarn init -y
+	$ yarn add -D typescript @types/node typesync ts-node webpack webpack-cli ts-loader
+	$ yarn run tsc --init
+
